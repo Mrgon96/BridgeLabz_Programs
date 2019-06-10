@@ -26,7 +26,7 @@ class utility():
                     print(num), #print number
                     Primes.append(num)   #add number to prime array
         print('Total there are ',len(Primes),' prime Numbers in Between 1 to ', N)
-        #prtint length of array and total count of numbers
+        #print length of array and total count of numbers
 
 #************************PRIME NUMBERS ANAGRAM*******************************      
     @staticmethod
