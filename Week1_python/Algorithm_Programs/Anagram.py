@@ -1,4 +1,4 @@
-from utility import utility #importing utility class
+from utility import utility  #importing utility class
 
 #taking user inputs in two string
 s1 = input('Enter 1st String: ')

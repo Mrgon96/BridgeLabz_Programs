@@ -1,6 +1,8 @@
-UserName = input('Enter Username')#taking user input
+#taking user input
+UserName = input('Enter Username')
 
-if len(UserName) <= 2:#checking length of user input
+#checking length of user input
+if len(UserName) <= 2:
     print('Username must have minimum 3 characters')
 else:    
     print('Hello',UserName,', How are you?')

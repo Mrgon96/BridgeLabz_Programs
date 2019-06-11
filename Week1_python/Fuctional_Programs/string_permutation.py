@@ -1,11 +1,15 @@
-def toString(L):#fuction to conver list to string 
-    return ' '.join(L) #join string without any space
+#fuction to conver list to string 
+def toString(L):
+    return ' '.join(L) 
 
-def Permute(a,l,r): # define fuction taking three Inputs
-    if l == r: #checking for equality of start and end
-        print toString(a) #calling to string function and passing list
+# define fuction taking three Inputs
+def Permute(a,l,r): 
+    #checking for equality of start and end
+    if l == r:
+        print toString(a) 
     else:
-        for i in range(l,r+1): # for i in 0 and last index
+        for i in range(l,r+1): 
+            #swap values
             a[l],a[i]=a[i],a[l] 
             Permute(a,l+1,r) # recursively call function
             a[l],a[i]=a[i],a[l]  

@@ -2,9 +2,10 @@ import random  #import random module
 
 #Define function gamble
 def Gamble():
-    stake = int(input('Enter Stake: ')) #stake input
-    goal = int(input('Enter goal: ')) #goal input
-    N = int(input('number of trials')) # number of trails input
+    #take user inputs for stake,goal and trials
+    stake = int(input('Enter Stake: ')) 
+    goal = int(input('Enter goal: '))
+    N = int(input('number of trials')) 
 
 
     wins=0 # wins intialized

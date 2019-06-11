@@ -1,23 +1,18 @@
 from utility import utility
 
+#define number upto which prime numbers needed
 N = 1000
+
+#define primes array
 Primes = []
+
+#checking and printing palindromes
 utility.Primenum(N,Primes)
 print('Palindrome Numbers are ')
 utility.Palinum(Primes)
 print('')
+
+#checking and printing anagrams
 print('Anagram Pairs are: ')
 utility.Primegram(Primes)
 
-
-    # @staticmethod
-    # def Primegram(primes):
-    #     for i in primes:
-    #         for j in primes:
-    #             if i == j:
-    #                 break
-    #             else:
-    #                 i=str(i)
-    #                 j=str(j)
-    #                 if(sorted(i)==sorted(j)):
-    #                     print(i,' and ', j ),

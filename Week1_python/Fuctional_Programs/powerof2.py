@@ -1,10 +1,13 @@
 def power2():
-    number = int(input('Enter a Number: ')) # taking integer input
+     # taking integer input
+    number = int(input('Enter a Number: '))
 
-    if number > 31: #checking for number not greater than 31
+     #checking for number not greater than 31
+    if number > 31:
         print('Enter a value Less than or Equal to 31')
     else:
-        for i in range(1,number+1): #looping value of i 
-            print(2**i) #printig 2 raised to the power of i  
+        for i in range(1,number+1): 
+            #printig 2 raised to the power of i  
+            print(2**i) 
 
 power2()
