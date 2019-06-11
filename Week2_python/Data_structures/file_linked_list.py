@@ -56,3 +56,6 @@ if __name__=='__main__':
         print('Element Found.....')
     else:
         print('Element not found.....')
+
+#closing the file
+fp.close()
