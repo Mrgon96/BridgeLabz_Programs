@@ -1,9 +1,8 @@
-Butterscotch
-Vanilla
+Strawberry
 Blackforest
-Strawberry 
-Pista
-Chocklate
 Pineapple
-
-
+Vanilla
+Butterscotch
+Pista
+Chocolate
+Americano
