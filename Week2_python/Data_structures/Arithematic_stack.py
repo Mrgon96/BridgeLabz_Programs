@@ -18,7 +18,7 @@ class Arithmetic_stack:
 
 s = Arithmetic_stack()
 
-expression = '(5+6)∗(7+8)/(4+3)(5+6)∗(7+8)/(4+3)'
+expression = '(5+6)∗(7+8)/(4+3)(5+6)∗(7+8)/(4+3)('
 
 for i in expression:
     if( i == '('):

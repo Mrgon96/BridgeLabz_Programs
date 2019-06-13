@@ -29,7 +29,7 @@ class Palin_deque:
 
 
 d = Palin_deque()
-str = 'somesh'
+str = input('Enter String to Check for Palindrome: ')
 for i in str:
     d.append_rear(i)
 
