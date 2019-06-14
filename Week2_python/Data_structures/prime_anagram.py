@@ -41,7 +41,7 @@ for i in ranges:
 #**************ANAGRAMS 2D ARRAY*******************
 anagrams = []
 k=0
-
+notAnagrams = []
 for i in range(0,len(ranges)):
     anagrams.append([])
     for j in ranges[i]:
@@ -54,7 +54,13 @@ for i in range(0,len(ranges)):
                 anagrams[i].append(k)
             #anagrams[i].sort()
 
+
 print('Angrams in Ranges are: ')
 for a in anagrams:
     print(a)
+
+print('Non Anagrams Are :')
+for a in notAnagrams:
+    print(a)
+
 

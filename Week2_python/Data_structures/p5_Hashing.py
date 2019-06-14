@@ -18,7 +18,7 @@ hashTable = []
 for i in range(10):
     hashTable.append([])
     for j in nums:
-        j=int(j)
+        j = int(j)
         if j % 11 == i:
             hashTable[i].append(j)
     if len(hashTable[i]) == 0:

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="11aecddb-1749-42c6-a636-4e104e4e1cba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_python/Data_structures/Arithematic_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_python/Data_structures/Arithematic_stack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_python/Data_structures/Palin_deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_python/Data_structures/Palin_deque.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_python/Data_structures/p5_Hashing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_python/Data_structures/p5_Hashing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_python/Data_structures/prime_anagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_python/Data_structures/prime_anagram.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,87 +18,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/file_linked_list.py">
+        <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/anagramTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="970">
-              <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+            <state relative-caret-position="240">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/Palin_deque.py">
+        <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/DayofweekTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-350">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="140">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/prime.py">
+        <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/bubblesortTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/prime_anagram.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/HashNumbers.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="41" selection-start-column="41" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/p5_Hashing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="60">
+              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/p4_bank.py">
+        <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/insertionsortTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="100">
+              <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/prime1000.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/bubblesort.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/Dayofweek.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/utility.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/Arithematic_stack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="442">
+              <caret line="94" column="87" selection-start-line="94" selection-start-column="87" selection-end-line="94" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -128,11 +117,18 @@
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/Stack_class.py" />
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/Arithematic_stack.py" />
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/prime.py" />
-        <option value="$PROJECT_DIR$/Week2_python/Data_structures/prime_anagram.py" />
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/HashNumbers.txt" />
-        <option value="$PROJECT_DIR$/Week2_python/Data_structures/p5_Hashing.py" />
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/Palin_deque.py" />
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/p4_bank.py" />
+        <option value="$PROJECT_DIR$/Week2_python/Data_structures/p5_Hashing.py" />
+        <option value="$PROJECT_DIR$/Week2_python/Data_structures/calender.py" />
+        <option value="$PROJECT_DIR$/Week2_python/Data_structures/prime_anagram.py" />
+        <option value="$PROJECT_DIR$/Week2_python/Data_structures/p13.py" />
+        <option value="$PROJECT_DIR$/Week1_python/TestCases/AnagramTest.py" />
+        <option value="$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/anagramTest.py" />
+        <option value="$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/DayofweekTest.py" />
+        <option value="$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/bubblesortTest.py" />
+        <option value="$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/insertionsortTest.py" />
       </list>
     </option>
   </component>
@@ -147,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="67" />
     <option name="y" value="25" />
     <option name="width" value="1299" />
@@ -168,6 +164,24 @@
               <item name="Mrgon96" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mrgon96" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Mrgon96" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mrgon96" type="462c0819:PsiDirectoryNode" />
+              <item name="Week1_python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mrgon96" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mrgon96" type="462c0819:PsiDirectoryNode" />
+              <item name="Week1_python" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm_Programs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mrgon96" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mrgon96" type="462c0819:PsiDirectoryNode" />
+              <item name="Week1_python" type="462c0819:PsiDirectoryNode" />
+              <item name="Algorithm_Programs" type="462c0819:PsiDirectoryNode" />
+              <item name="TestFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -177,8 +191,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles" />
+      <recent name="$PROJECT_DIR$/Week1_python/TestCases" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -192,8 +212,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.p4_bank">
-    <configuration name="Palin_deque" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.insertionsortTest">
+    <configuration name="insertionsortTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Mrgon96" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,11 +221,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2_python/Data_structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week2_python/Data_structures/Palin_deque.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/insertionsortTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,97 +234,69 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for Algorithm_Programs.TestFiles.DayofweekTest.DayofweekTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Mrgon96" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2_python/Data_structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week1_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week2_python/Data_structures/file_linked_list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Algorithm_Programs.TestFiles.DayofweekTest.DayofweekTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="p4_bank" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for Algorithm_Programs.TestFiles.bubblesortTest.bubblesortTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Mrgon96" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2_python/Data_structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week1_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week2_python/Data_structures/p4_bank.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Algorithm_Programs.TestFiles.bubblesortTest.bubblesortTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="p5_Hashing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for Algorithm_Programs.TestFiles.bubblesortTest.bubblesortTest.testbubble" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Mrgon96" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2_python/Data_structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week1_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week2_python/Data_structures/p5_Hashing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Algorithm_Programs.TestFiles.bubblesortTest.bubblesortTest.testbubble&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="prime_anagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests in bubblesortTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Mrgon96" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2_python/Data_structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week1_python" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week2_python/Data_structures/prime_anagram.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/bubblesortTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.p4_bank" />
-        <item itemvalue="Python.p5_Hashing" />
-        <item itemvalue="Python.Palin_deque" />
-        <item itemvalue="Python.file_linked_list" />
-        <item itemvalue="Python.prime_anagram" />
+        <item itemvalue="Python.insertionsortTest" />
+        <item itemvalue="Python tests.Unittests for Algorithm_Programs.TestFiles.bubblesortTest.bubblesortTest" />
+        <item itemvalue="Python tests.Unittests for Algorithm_Programs.TestFiles.bubblesortTest.bubblesortTest.testbubble" />
+        <item itemvalue="Python tests.Unittests in bubblesortTest.py" />
+        <item itemvalue="Python tests.Unittests for Algorithm_Programs.TestFiles.DayofweekTest.DayofweekTest" />
       </list>
     </recent_temporary>
   </component>
@@ -321,6 +313,38 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_Algorithm_Programs_TestFiles_bubblesortTest_bubblesortTest - 2019.06.14 at 18h 35m 30s.xml">
+      <configuration name="Unittests for Algorithm_Programs.TestFiles.bubblesortTest.bubblesortTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Algorithm_Programs_TestFiles_bubblesortTest_bubblesortTest - 2019.06.14 at 18h 36m 03s.xml">
+      <configuration name="Unittests for Algorithm_Programs.TestFiles.bubblesortTest.bubblesortTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Algorithm_Programs_TestFiles_bubblesortTest_bubblesortTest - 2019.06.14 at 18h 39m 07s.xml">
+      <configuration name="Unittests for Algorithm_Programs.TestFiles.bubblesortTest.bubblesortTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_DayofweekTest_py - 2019.06.14 at 18h 39m 21s.xml">
+      <configuration name="Unittests in DayofweekTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Algorithm_Programs_TestFiles_DayofweekTest_DayofweekTest - 2019.06.14 at 18h 39m 34s.xml">
+      <configuration name="Unittests for Algorithm_Programs.TestFiles.DayofweekTest.DayofweekTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Algorithm_Programs_TestFiles_bubblesortTest_bubblesortTest - 2019.06.14 at 18h 42m 05s.xml">
+      <configuration name="Unittests for Algorithm_Programs.TestFiles.bubblesortTest.bubblesortTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Algorithm_Programs_TestFiles_bubblesortTest_bubblesortTest - 2019.06.14 at 18h 42m 13s.xml">
+      <configuration name="Unittests for Algorithm_Programs.TestFiles.bubblesortTest.bubblesortTest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_bubblesortTest_py - 2019.06.14 at 18h 44m 02s.xml">
+      <configuration name="Unittests in bubblesortTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Algorithm_Programs_TestFiles_bubblesortTest_bubblesortTest_testbubble - 2019.06.14 at 18h 44m 48s.xml">
+      <configuration name="Unittests for Algorithm_Programs.TestFiles.bubblesortTest.bubblesortTest.testbubble" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_Algorithm_Programs_TestFiles_bubblesortTest_bubblesortTest - 2019.06.14 at 18h 46m 34s.xml">
+      <configuration name="Unittests for Algorithm_Programs.TestFiles.bubblesortTest.bubblesortTest" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -331,22 +355,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="25" width="1309" height="743" extended-state="7" />
+    <frame x="57" y="25" width="1309" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1773555" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18052256" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24940617" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3293745" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4996041" visible="true" weight="0.247557" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49881235" visible="true" weight="0.22149837" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.34527686" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5003959" side_tool="true" weight="0.247557" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49881235" weight="0.27198696" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011876" side_tool="true" weight="0.24104235" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -356,28 +380,11 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/Anagram.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/Array_search_sort.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/binary_nibble.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/bubblesort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/Dayofweek.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/Vending.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -394,48 +401,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/utility.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/prime1000.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/Arithematic_stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/file_linked_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="970">
-          <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/prime_anagram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/prime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/Palin_deque.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="211">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -448,15 +417,152 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/p5_Hashing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/p4_bank.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/prime1000.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/Arithematic_stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/Palin_deque.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/prime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/calender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/Fuctional_Programs/coupon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/p13.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/prime_anagram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Gaurav/Test_programs/c.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/TestCases/utility.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/TestCases/AnagramTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/Anagram.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/utility.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/bubblesort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/DayofweekTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/anagramTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/utility.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="94" column="87" selection-start-line="94" selection-start-column="87" selection-end-line="94" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/bubblesortTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/Dayofweek.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/insertionsortTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
