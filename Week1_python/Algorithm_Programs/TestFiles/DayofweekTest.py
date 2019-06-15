@@ -5,7 +5,7 @@ class DayofweekTest(unittest.TestCase):
     def day_correct(self):
         result = utility.Day(1,1,2019)
         expected = 'Monday'
-        self.assertEquals(expected,result)
+        self.assertEqual(expected,result)
 
 
 if __name__ == '__main__':

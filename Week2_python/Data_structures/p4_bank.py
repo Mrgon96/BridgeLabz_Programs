@@ -43,7 +43,7 @@ def withdraw(d):
 
 
 
-for i in range(0,num+1):
+for i in range(0,num):
     choice = int(input('1 for withdraw, 2 for Deposit'))
     if choice == 1:
         withdraw(d)

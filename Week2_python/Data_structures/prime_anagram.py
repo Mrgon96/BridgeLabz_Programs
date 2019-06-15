@@ -59,8 +59,6 @@ print('Angrams in Ranges are: ')
 for a in anagrams:
     print(a)
 
-print('Non Anagrams Are :')
-for a in notAnagrams:
-    print(a)
+
 
 

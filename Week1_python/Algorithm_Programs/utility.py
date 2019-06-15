@@ -60,7 +60,7 @@ class utility():
     #@staticmethod
     def Bint(Nums,start,end,tofind):# passing array,start and end of array and number to find
         while start <= end: # while start is less end
-            mid = 1+(end-start)/2 #calulating middle of array 
+            mid = int(1+(end-start)/2) #calulating middle of array
 
             if Nums[mid] == tofind: #cheking if middle is the number to find
                 return mid
