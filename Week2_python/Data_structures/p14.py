@@ -21,6 +21,13 @@ class Queue:
         self.rear.next = temp
         self.rear = temp
 
+    def printQueue(self):
+        temp = self.front
+        print('This is your Queue: ')
+        while temp:
+            print(temp.data),
+            temp=temp.next
+        print
 
     def deque(self):
         if self.isEmpty():
@@ -46,14 +53,17 @@ def prime(n, primes):
                 # print(n)
                 primes.append(n)
 
+anagrams=[]
 
 def isAnagram(primes):
     for i in primes:
+        primes.remove(i)
         for j in primes:
             i = str(i)
             j = str(j)
             if (sorted(i) == sorted(j)):
-               return True
+               anagrams.append(i)
+               anagrams.append(j)
 
 
 prime(n, primes)
@@ -62,9 +72,7 @@ isAnagram(primes)
 
 q =Queue()
 
-for i in primes:
+for i in anagrams:
     q.enque(i)
 
-
-for j in range(len(primes)):
-    print(q.deque())
+q.printQueue()

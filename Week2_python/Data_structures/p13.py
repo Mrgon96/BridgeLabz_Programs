@@ -64,6 +64,8 @@ for i in anagrams:
 
 print(anagrams)
 
+print("anagrams in reverse order: ")
+
 reverse = []
 print('')
 for j in range(len(anagrams)):
