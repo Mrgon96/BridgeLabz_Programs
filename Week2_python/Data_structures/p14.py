@@ -1,18 +1,24 @@
+#create Node class for linked list
 class Node:
     def __init__(self,data):
         self.data = data
         self.next=None
 
+# queue created using linked list
 
 class Queue:
 
+    #define front and rear as none
     def __init__(self):
         self.front = self.rear = None
 
+    #check for empty
     def isEmpty(self):
         return self.front == None
 
+    # insert element in a queue
     def enque(self, item):
+        #creating node at element
         temp = Node(item)
 
         if self.rear == None:
@@ -21,6 +27,7 @@ class Queue:
         self.rear.next = temp
         self.rear = temp
 
+    # print queue
     def printQueue(self):
         temp = self.front
         print('This is your Queue: ')
@@ -29,6 +36,7 @@ class Queue:
             temp=temp.next
         print
 
+    #delete element from queue
     def deque(self):
         if self.isEmpty():
             return
@@ -39,10 +47,12 @@ class Queue:
             self.rear = None
         return str(temp.data)
 
+#initialize limit and empty prime array
 n = 1000
 global primes
 primes = []
 
+# check for prime
 def prime(n, primes):
     for n in range(n + 1):
         if n > 1:
@@ -55,6 +65,7 @@ def prime(n, primes):
 
 anagrams=[]
 
+#check for anagrams
 def isAnagram(primes):
     for i in primes:
         primes.remove(i)
@@ -65,11 +76,11 @@ def isAnagram(primes):
                anagrams.append(i)
                anagrams.append(j)
 
-
+#calling functions
 prime(n, primes)
 isAnagram(primes)
 
-
+#create object of queue class
 q =Queue()
 
 for i in anagrams:

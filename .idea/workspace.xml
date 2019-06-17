@@ -4,12 +4,8 @@
     <list default="true" id="11aecddb-1749-42c6-a636-4e104e4e1cba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Week2_python/Data_structures/Arithematic_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_python/Data_structures/Arithematic_stack.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week2_python/Data_structures/Palin_deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_python/Data_structures/Palin_deque.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_python/Data_structures/abc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_python/Data_structures/abc.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_python/Data_structures/orederedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_python/Data_structures/orederedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_python/Data_structures/p13.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_python/Data_structures/p13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_python/Data_structures/p4_bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_python/Data_structures/p4_bank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week2_python/Data_structures/p14.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_python/Data_structures/p14.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week2_python/Data_structures/p9_weekObject.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_python/Data_structures/p9_weekObject.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week2_python/Data_structures/prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week2_python/Data_structures/prime.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/Palin_deque.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/Arithematic_stack.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+            <state relative-caret-position="221">
+              <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/Tests/Stacktest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#75#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,18 +79,20 @@
         <option value="$PROJECT_DIR$/../Gaurav/web-s.py" />
         <option value="$PROJECT_DIR$/../Gaurav/newweb.py" />
         <option value="$PROJECT_DIR$/../Gaurav/newweb2.py" />
-        <option value="$PROJECT_DIR$/Week2_python/Data_structures/p14.py" />
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/calender.py" />
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/file_linked_list.py" />
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/prime_anagram.py" />
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/abc.txt" />
-        <option value="$PROJECT_DIR$/Week2_python/Data_structures/Arithematic_stack.py" />
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/p13.py" />
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/orederedList.py" />
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/p4_bank.py" />
-        <option value="$PROJECT_DIR$/Week2_python/Data_structures/p9_weekObject.py" />
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/prime.py" />
+        <option value="$PROJECT_DIR$/Week2_python/Data_structures/p14.py" />
+        <option value="$PROJECT_DIR$/Week2_python/Data_structures/p9_weekObject.py" />
         <option value="$PROJECT_DIR$/Week2_python/Data_structures/Palin_deque.py" />
+        <option value="$PROJECT_DIR$/Week2_python/Data_structures/Tests/calenderTest.py" />
+        <option value="$PROJECT_DIR$/Week2_python/Data_structures/Arithematic_stack.py" />
+        <option value="$PROJECT_DIR$/Week2_python/Data_structures/Tests/Stacktest.py" />
       </list>
     </option>
   </component>
@@ -118,11 +128,6 @@
             <path>
               <item name="Mrgon96" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mrgon96" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mrgon96" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mrgon96" type="462c0819:PsiDirectoryNode" />
-              <item name="Week1_python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mrgon96" type="b2602c69:ProjectViewProjectNode" />
@@ -168,8 +173,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.p9_weekObject">
-    <configuration name="orederedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests for calenderTest.calendertest.testcalender">
+    <configuration name="Arithematic_stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Mrgon96" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,7 +186,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week2_python/Data_structures/orederedList.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week2_python/Data_structures/Arithematic_stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,97 +195,69 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="p13" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for Stacktest.arithmatic_test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Mrgon96" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2_python/Data_structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2_python/Data_structures/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week2_python/Data_structures/p13.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Stacktest.arithmatic_test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="p14" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for Stacktest.arithmatic_test.test_stack" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Mrgon96" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2_python/Data_structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2_python/Data_structures/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week2_python/Data_structures/p14.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Stacktest.arithmatic_test.test_stack&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="p4_bank" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for Stacktest.arithmatic_test.test_stack_n" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Mrgon96" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2_python/Data_structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2_python/Data_structures/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week2_python/Data_structures/p4_bank.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Stacktest.arithmatic_test.test_stack_n&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="p9_weekObject" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for calenderTest.calendertest.testcalender" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="Mrgon96" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2_python/Data_structures" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week2_python/Data_structures/Tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week2_python/Data_structures/p9_weekObject.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;calenderTest.calendertest.testcalender&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.p9_weekObject" />
-        <item itemvalue="Python.p13" />
-        <item itemvalue="Python.p14" />
-        <item itemvalue="Python.orederedList" />
-        <item itemvalue="Python.p4_bank" />
+        <item itemvalue="Python tests.Unittests for calenderTest.calendertest.testcalender" />
+        <item itemvalue="Python tests.Unittests for Stacktest.arithmatic_test" />
+        <item itemvalue="Python tests.Unittests for Stacktest.arithmatic_test.test_stack" />
+        <item itemvalue="Python tests.Unittests for Stacktest.arithmatic_test.test_stack_n" />
+        <item itemvalue="Python.Arithematic_stack" />
       </list>
     </recent_temporary>
   </component>
@@ -298,35 +275,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_Algorithm_Programs_TestFiles_bubblesortTest_bubblesortTest - 2019.06.14 at 18h 46m 34s.xml">
-      <configuration name="Unittests for Algorithm_Programs.TestFiles.bubblesortTest.bubblesortTest" configurationId="tests" />
+    <history-entry file="Unittests_in_Stacktest_py - 2019.06.17 at 18h 47m 24s.xml">
+      <configuration name="Unittests in Stacktest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_bubblesortTest_py - 2019.06.15 at 11h 13m 54s.xml">
-      <configuration name="Unittests in bubblesortTest.py" configurationId="tests" />
+    <history-entry file="Unittests_for_calenderTest_calendertest_testcalender - 2019.06.17 at 18h 51m 45s.xml">
+      <configuration name="Unittests for calenderTest.calendertest.testcalender" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_binaryTOdec_binaryTodec_testbtod - 2019.06.15 at 11h 24m 47s.xml">
-      <configuration name="Unittests for binaryTOdec.binaryTodec.testbtod" configurationId="tests" />
+    <history-entry file="Unittests_for_Stacktest_arithmatic_test_test_stack - 2019.06.17 at 18h 52m 04s.xml">
+      <configuration name="Unittests for Stacktest.arithmatic_test.test_stack" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_binaryTOdec_py - 2019.06.15 at 11h 25m 20s.xml">
-      <configuration name="Unittests in binaryTOdec.py" configurationId="tests" />
+    <history-entry file="Unittests_in_Stacktest_py - 2019.06.17 at 18h 52m 23s.xml">
+      <configuration name="Unittests in Stacktest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_binaryTOdec_py - 2019.06.15 at 11h 25m 30s.xml">
-      <configuration name="Unittests in binaryTOdec.py" configurationId="tests" />
+    <history-entry file="Unittests_for_Stacktest_arithmatic_test - 2019.06.17 at 19h 17m 43s.xml">
+      <configuration name="Unittests for Stacktest.arithmatic_test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_binaryTOdec_py - 2019.06.15 at 11h 25m 52s.xml">
-      <configuration name="Unittests in binaryTOdec.py" configurationId="tests" />
+    <history-entry file="Unittests_for_Stacktest_arithmatic_test_test_stack - 2019.06.17 at 19h 18m 56s.xml">
+      <configuration name="Unittests for Stacktest.arithmatic_test.test_stack" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_decimalTobin_py - 2019.06.15 at 11h 33m 34s.xml">
-      <configuration name="Unittests in decimalTobin.py" configurationId="tests" />
+    <history-entry file="Unittests_for_Stacktest_arithmatic_test_test_stack_n - 2019.06.17 at 19h 19m 14s.xml">
+      <configuration name="Unittests for Stacktest.arithmatic_test.test_stack_n" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_decimalTobin_dectobinary_testdTOb - 2019.06.15 at 11h 33m 55s.xml">
-      <configuration name="Unittests for decimalTobin.dectobinary.testdTOb" configurationId="tests" />
+    <history-entry file="Unittests_for_Stacktest_arithmatic_test_test_stack - 2019.06.17 at 19h 19m 35s.xml">
+      <configuration name="Unittests for Stacktest.arithmatic_test.test_stack" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_decimalTobin_dectobinary_testdTOb - 2019.06.15 at 11h 34m 14s.xml">
-      <configuration name="Unittests for decimalTobin.dectobinary.testdTOb" configurationId="tests" />
+    <history-entry file="Unittests_for_Stacktest_arithmatic_test - 2019.06.17 at 19h 19m 45s.xml">
+      <configuration name="Unittests for Stacktest.arithmatic_test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_decimalTobin_py - 2019.06.15 at 11h 35m 11s.xml">
-      <configuration name="Unittests in decimalTobin.py" configurationId="tests" />
+    <history-entry file="Unittests_for_Stacktest_arithmatic_test - 2019.06.17 at 19h 20m 04s.xml">
+      <configuration name="Unittests for Stacktest.arithmatic_test" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -340,20 +317,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="25" width="1309" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18923199" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18923199" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24940617" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3293745" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49881235" weight="0.262215" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49881235" visible="true" weight="0.16123779" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49881235" visible="true" weight="0.27198696" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49881235" weight="0.27198696" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5011876" side_tool="true" weight="0.24104235" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -364,20 +340,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/utility.py" />
-    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/anagramTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/YourNum.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/Vending.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -433,16 +395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/DayofweekTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -514,16 +466,6 @@
     <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/Mergesort.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/decimalTobin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Gaurav/newweb2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -583,45 +525,10 @@
         <state relative-caret-position="-855" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/p5_Hashing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/p14.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/abc.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/Arithematic_stack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/calender.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/file_linked_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="94" column="5" selection-start-line="94" selection-start-column="5" selection-end-line="94" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -632,45 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/orederedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="126" column="22" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/p4_bank.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/p9_weekObject.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/p13.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-105">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/prime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/prime_anagram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-470">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -681,10 +553,130 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/p13.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/orederedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="104" column="13" lean-forward="true" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/p9_weekObject.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/p14.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/anagramTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/DayofweekTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/decimalTobin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/calender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/Tests/calenderTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/file_linked_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/p5_Hashing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/prime_anagram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/Palin_deque.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        <state relative-caret-position="-204">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/prime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/Arithematic_stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/Tests/Stacktest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

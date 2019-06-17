@@ -27,17 +27,22 @@ s = Arithmetic_stack()
 # expression to be checked
 expression = '(5+6)∗(7+8)/(4+3)(5+6)∗(7+8)/(4+3)'
 
+def balance_eq():
+        # push and pop for every bracket found
+        for i in expression:
 
-# push and pop for every bracket found
-for i in expression:
-
-    if( i == '('):
-        s.push('(')
-    elif( i == ')'):
-        s.pop()
+            if( i == '('):
+                s.push('(')
+            elif( i == ')'):
+                s.pop()
 
 # checking for balanced expression
-if s.isEmpty():
-    print('Arithmatic expression is balanced')
+        if s.isEmpty():
+            return True
+        else:
+            return False
+
+if(balance_eq()):
+    print('Equation is Balanced')
 else:
-    print('Arithmatic expression is not balanced')
+    print('Equation is not balanced')

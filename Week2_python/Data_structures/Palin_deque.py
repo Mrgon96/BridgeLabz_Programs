@@ -25,7 +25,7 @@ class Palin_deque:
     def pop_front(self):
         return self.deque.pop(-1)
 
-    #get element from rear
+    # get element from rear
     def rear_element(self):
         return self.deque(0)
 
