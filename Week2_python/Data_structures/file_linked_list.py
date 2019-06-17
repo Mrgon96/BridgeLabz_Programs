@@ -1,19 +1,26 @@
+# declaring file name
 fileName = '123.txt'
 
+# Node class having object with data and next is none
 class Node:
     def __init__(self,data):
         self.data = data
         self.next = None
 
+# class linked list
 class Linkedlist:
+
+    #intialize head
     def __init__(self):
         self.head=None
 
+    #function to insert new node at head
     def push(self,newData):
         newNode = Node(newData)
         newNode.next = self.head
         self.head = newNode
 
+    #printing linked list
     def printList(self):
         temp = self.head
         print('This is your Linked List: ')
@@ -22,6 +29,7 @@ class Linkedlist:
             temp=temp.next
         print
 
+    #search for particular node
     def search(self,i):
         current = self.head
 
@@ -32,6 +40,7 @@ class Linkedlist:
 
         return False
 
+    #function for deleting node
     def deleteNode(self, key):
         temp = self.head
 
@@ -59,6 +68,8 @@ class Linkedlist:
 
 if __name__=='__main__':
 
+
+    # try catch block for opening file
     try:
         fp = open(fileName, 'r')
 
@@ -71,13 +82,19 @@ if __name__=='__main__':
     except IOError:
         print('File is not Present')
 
+    #creating linked list class object
     link_list = Linkedlist()
+
+    #pushing data in linked list
     for i in Words:
         link_list.push(i)
 
+    #printing linked list
     link_list.printList()
 
+    #user input for search
     str1 = input('Enter the String you want to Search: ')
+
 
     if link_list.search(str1):
         print('Element Found in Linked List.....')

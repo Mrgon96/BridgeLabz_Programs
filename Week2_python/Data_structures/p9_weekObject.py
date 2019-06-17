@@ -1,5 +1,6 @@
 import sys
 
+
 def day(d,m,y):
     y0= y - (( 14 - m)/12)
     x = y0 + y0/4 - y0/100 + y0/400

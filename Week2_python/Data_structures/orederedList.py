@@ -10,48 +10,27 @@ class Linkedlist:
         self.head=None
 
     def push(self,newData):
+        new_node = Node(newData)
+        new_node.next = self.head
+        self.head = new_node
 
-
-        newNode = Node(newData)
+    def sorted_insert(self, new_node):
         if self.head is None:
-            self.head = newNode
-            return
+            new_node.next = self.head
+            self.head = new_node
 
-        temp = self.head
-        
-        if newData < self.head.data:
-            newNode.next = self.head
-            self.head = newNode
-        else:
+        elif self.head.data >= new_node.data:
+            new_node.next = self.head
+            self.head = new_node
 
-            while(temp):
-                temp = temp.next
-            temp.next = newNode
+        else :
+            current = self.head
+            while ( current.next is not None and
+                    current.next.data < new_node.data ):
+                current = current.next
 
-
-        # temp = self.head
-        # while(temp.next):
-        #     if newData < self.head.data:
-        #         newNode.next = self.head
-        #         self.head = newNode
-        #     elif newData > temp.data and newData < temp.next.data:
-        #         temp.next = newNode
-        #         newNode.next = temp.next.next
-
-
-        #     while(temp.next):
-        #         temp =temp.next
-        #     temp.next = newNode
-
-
-
-        # while temp.next != None:
-        #
-        #     if(newData > temp.data):
-        #         newNode = Node(newData)
-        #         temp.next = newNode
-        #         newNode.next = None
-        #     temp=temp.next
+            new_node.next = current.next
+            current.next = new_node
 
 
     def printList(self):
@@ -105,7 +84,7 @@ if __name__=='__main__':
         if fp:
             print('File Opened Successfully! ')
             content = fp.read()
-            Words = content.split()
+            Words = (content.split())
 
 
     except IOError:
@@ -113,7 +92,9 @@ if __name__=='__main__':
 
     link_list = Linkedlist()
     for i in Words:
-        link_list.push(i)
+        i = int(i)
+        new_node = Node(i)
+        link_list.sorted_insert(new_node)
 
 
     link_list.printList()

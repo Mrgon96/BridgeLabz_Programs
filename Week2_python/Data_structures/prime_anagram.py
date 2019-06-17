@@ -1,6 +1,9 @@
+# initialzing empty primes array and limit of numbers
 n = 1000
-global primes
 primes = []
+
+
+# function to check for prime number
 
 def prime(n, primes):
     for n in range(n + 1):
@@ -13,6 +16,8 @@ def prime(n, primes):
                 primes.append(n)
 
 
+#checking for anagram
+
 def isAnagram(primes):
     for i in primes:
         for j in primes:
@@ -21,8 +26,10 @@ def isAnagram(primes):
             if (sorted(i) == sorted(j)):
                return True
 
-
+#calling function
 prime(n, primes)
+
+#ranges array
 
 ranges = []
 k = 0
@@ -34,14 +41,20 @@ for i in range(0, 10):
         if j <= k and j >= min:
             ranges[i].append(j)
 
+# print prime array in ranges
+
 for i in ranges:
     print(i)
 
 
-#**************ANAGRAMS 2D ARRAY*******************
+#anagrams 2d array
+
 anagrams = []
 k=0
 notAnagrams = []
+
+#checking for anagram in ranges
+
 for i in range(0,len(ranges)):
     anagrams.append([])
     for j in ranges[i]:
