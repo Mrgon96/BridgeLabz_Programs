@@ -20,23 +20,23 @@ class Arithmetic_stack:
 
 
 
-#create stack classs object
+# create stack classs object
 s = Arithmetic_stack()
 
 
-#expression to be checked
-expression = '(5+6)∗(7+8)/(4+3)(5+6)∗(7+8)/(4+3)('
-
+# expression to be checked
+expression = '(5+6)∗(7+8)/(4+3)(5+6)∗(7+8)/(4+3)'
 
 
 # push and pop for every bracket found
 for i in expression:
+
     if( i == '('):
         s.push('(')
     elif( i == ')'):
         s.pop()
 
-#checking for balanced expression
+# checking for balanced expression
 if s.isEmpty():
     print('Arithmatic expression is balanced')
 else:

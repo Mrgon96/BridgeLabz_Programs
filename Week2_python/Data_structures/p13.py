@@ -58,6 +58,7 @@ def Primegram(primes):
 
 
 s =Stack()
+primes.sort()
 Primegram(primes)
 for i in anagrams:
     s.push(i)

@@ -1,57 +1,71 @@
+#define class queue
 class Queue:
+
+    # define object as list
     def __init__(self):
         self.queue = []
 
-    def enque(self, element):
+    # adding element
+    def enqueue(self, element):
         self.queue.insert(0, element)
 
-    def deque(self):
+    # deleting element
+    def dequeue(self):
         return self.queue.pop(-1)
 
+    # print queue
     def print_queue(self):
         for i in self.queue:
             print(i,'\t')
 
-
+# create class object
 q = Queue()
 
+# queue length
 num = int(input('Enter number of persons in a queue: '))
 
-for i in range(1,num+1):
-    q.enque(i)
-
-
-q.print_queue()
-
+#bank cash element
 cash = 1000
-d = cash
+dep = 0
+wid = 0
+print('Enter 1 to deposit the cash')
+print('Enter 2 to withdraw the cash')
+print('Enter 3 to exit')
 
-def deposit(cash,d):
-    dep = int(input('Enter Amount to be Deposited: '))
-    d =dep
-    cash += d
+# while true
+while True:
 
+    UserChoice = int(input('Please enter a value: '))
 
-def withdraw(d):
-    w = int(input('Enter amount to be withdrawn: '))
-    if w <= d:
-        print('Amount Withdrawn')
-        d = d-w
+    # if userchoice is 1
+    if UserChoice == 1:
+        q.enqueue(1)
+        Amount = int(input('Enter the amount you want to deposit: '))
+
+        if Amount == 0:
+            print('Enter some amount!')
+        else:
+            dep += Amount
+            cash += Amount
+            print('Thank you cash deposited sucessfully!')
+        q.dequeue()
+
+    # if userchoice is 2
+    elif UserChoice == 2:
+        wid += 1
+        q.enqueue(1)
+
+        Amount = int(input('Enter the amount you want to withdraw: '))
+
+        if dep >= Amount:
+            dep -= Amount
+            cash-= Amount
+            print('Amount withdrawal sucessfully')
+        else:
+            print('Sorry dont have enough cash')
+            q.dequeue()
     else:
-        print('You cant Withdraw That much')
-        withdraw(d)
-
-
-
-for i in range(0,num):
-    choice = int(input('1 for withdraw, 2 for Deposit'))
-    if choice == 1:
-        withdraw(d)
-    elif choice == 2:
-        deposit(cash,d)
-    else:
-        print('Enter Correct Choice: ')
-
+        quit()
 
 
 
