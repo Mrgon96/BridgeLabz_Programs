@@ -60,10 +60,14 @@ def Primegram(primes):
 s =Stack()
 primes.sort()
 Primegram(primes)
+
+anagrams.sort()
+print(anagrams)
+
 for i in anagrams:
+    i = int(i)
     s.push(i)
 
-print(anagrams)
 
 print("anagrams in reverse order: ")
 
@@ -71,6 +75,8 @@ reverse = []
 print('')
 for j in range(len(anagrams)):
     j=s.pop()
+
     reverse.append(j)
 
+reverse.sort(reverse=True)
 print(reverse)

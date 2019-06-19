@@ -47,13 +47,16 @@ class Queue:
             self.rear = None
         return str(temp.data)
 
-#initialize limit and empty prime array
+
+# initialize limit and empty prime array
 n = 1000
 global primes
 primes = []
 
 # check for prime
 def prime(n, primes):
+
+
     for n in range(n + 1):
         if n > 1:
             for i in range(2, n):
@@ -63,7 +66,9 @@ def prime(n, primes):
                 # print(n)
                 primes.append(n)
 
-anagrams=[]
+
+anagrams = []
+
 
 #check for anagrams
 def isAnagram(primes):
@@ -72,16 +77,16 @@ def isAnagram(primes):
         for j in primes:
             i = str(i)
             j = str(j)
-            if (sorted(i) == sorted(j)):
-               anagrams.append(i)
-               anagrams.append(j)
+            if sorted(i) == sorted(j):
+                anagrams.append(i)
+                anagrams.append(j)
 
-#calling functions
+# calling functions
 prime(n, primes)
 isAnagram(primes)
 
-#create object of queue class
-q =Queue()
+# create object of queue class
+q = Queue()
 
 for i in anagrams:
     q.enque(i)

@@ -1,4 +1,4 @@
-#creating a DEqueue
+# creating a DEqueue
 class Palin_deque:
 
     # create empty dequeue
@@ -40,29 +40,37 @@ class Palin_deque:
 
 
 d = Palin_deque()
-str = input('Enter String to Check for Palindrome: ')
+str2 = input('Enter String to Check for Palindrome: ')
 
-#insert elements in adequeue
-for i in str:
+# insert elements in adequeue
+for i in str2:
     d.append_rear(i)
 
-#while length is greate than 1
-while len(d.deque) > 1:
-    #pop element from front and rear
-    a = d.pop_front()
-    b = d.pop_rear()
 
-    # if popped elements are same
-    if(a == b):
-        print(a, ' popped from front and rear')
+def check_palin():
+    # while length is greate than 1
+    while len(d.deque) > 1:
+        # pop element from front and rear
+        a = d.pop_front()
+        b = d.pop_rear()
+
+        # if popped elements are same
+        if (a == b):
+            print(a, ' popped from front and rear')
+        else:
+            break
+
+    print('Queue at last')
+    d.print_deque()
+
+    # check for palindrome
+    if d.empty_deque() == True or len(d.deque) == 1:
+        return True
     else:
-        break
+        return False
 
-print('Queue at last')
-d.print_deque()
 
-#check for palindrome
-if d.empty_deque()== True or len(d.deque) == 1:
-    print('String is Palindrome')
+if(check_palin()):
+    print('String is Palindrome....')
 else:
     print('String is not palindrome')
