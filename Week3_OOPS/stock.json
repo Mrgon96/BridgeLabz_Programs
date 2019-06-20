@@ -1,0 +1,39 @@
+{
+  "stocks": [
+    {
+      "name": "Tata",
+      "shares": 5.4,
+      "price": 1655
+    },
+    {
+      "name": "Hyndai",
+      "shares": 6.3,
+      "price": 1546
+    },
+    {
+      "name": "HCL",
+      "shares": 0.45,
+      "price": 758
+    },
+    {
+      "name": "Nokia",
+      "shares": 4.85,
+      "price": 4587
+    },
+    {
+      "name": "SBI",
+      "shares": 5.2,
+      "price": 1204
+    },
+    {
+      "name": "TCS",
+      "shares": 2.36,
+      "price": 2234
+    },
+    {
+      "name": "ONGC",
+      "shares": 3.12,
+      "price": 1345
+    }
+  ]
+}
