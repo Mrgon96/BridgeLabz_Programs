@@ -64,9 +64,20 @@ class Address():
         a['state'] = input('Enter Your State: ')
         a['zip'] = input('Enter Your Zip: ')
         a['phone_number'] = input('Enter Your Phone Number: ')
+        try:
+            if a['first_name'].isalpha()  and a['last_name'].isalpha() and a['address'].isalpha() and \
+        a['city'].isalpha() and a['state'].isalpha() and a['zip'].isdigit() and a['phone_number'].isdigit():
+                self.data["AddressBook"].append(a)
+                self.write()
+            else:
+                raise ValueError
 
-        self.data["AddressBook"].append(a)
-        self.write()
+
+        except ValueError:
+            print('Enter DATA Again ')
+            print('Enter Names and Numbers Properly')
+            self.add()
+
 
     def remove(self):
         first = input('Enter First name: ')
@@ -121,7 +132,8 @@ class Address():
             print('1. Add record')
             print('2. Remove record')
             print('3. Update record')
-            self.choice = input('Enter your choice')
+            print('4. Exit')
+            self.choice = input('Enter your choice ==> ')
             if self.choice.isdigit()!=True:
                 raise ValueError
             else:
@@ -138,18 +150,26 @@ class Address():
         if self.choice == '1':
             self.open()
             self.add()
+            self.menu()
         elif self.choice == '2':
             self.open()
             self.remove()
             self.write()
+            self.menu()
         elif self.choice == '3':
             self.open()
             self.update()
             self.write()
+            self.menu()
+        elif self.choice == '4':
+            exit()
+        else:
+            print('Enter Correct Choice...')
+            self.menu()
 
 
 
-a =Address()
+a = Address()
 a.menu()
 
 
