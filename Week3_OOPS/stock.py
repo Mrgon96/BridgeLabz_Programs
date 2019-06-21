@@ -31,7 +31,8 @@ class stock():
         sum = 0
         for i in self.total:
             sum = sum + i
-        print("Total Value of Stocks is: ",round(sum, 4))
+        print("Total Value of Stocks is: ",
+              round(sum, 4))
 
 
 
