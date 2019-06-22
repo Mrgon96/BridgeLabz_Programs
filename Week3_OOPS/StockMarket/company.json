@@ -1,0 +1,19 @@
+{
+  "Companies": [
+    {
+      "Name": "Google",
+      "Shares": 200,
+      "price": 1230
+    },
+    {
+      "Name": "Microsoft",
+      "Shares": 1000,
+      "price": 450
+    },
+    {
+      "Name": "Amazon",
+      "Shares": 2500,
+      "price": 120
+    }
+  ]
+}

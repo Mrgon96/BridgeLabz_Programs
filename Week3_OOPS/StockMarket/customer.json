@@ -1,3 +1,14 @@
 {
-  "Customer": []
+  "Customer": [
+    {
+      "Name": "Gaurav",
+      "Balance": "5000",
+      "Stock": [
+        {
+          "company": "google",
+          "shares": 100
+        }
+      ]
+    }
+  ]
 }

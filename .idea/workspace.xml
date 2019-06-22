@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="11aecddb-1749-42c6-a636-4e104e4e1cba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_OOPS/linkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_OOPS/StockMarket/linkedlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week3_OOPS/quelink.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_OOPS/StockMarket/quelink.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_OOPS/StockMarket/company.json" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_OOPS/StockMarket/company.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_OOPS/StockMarket/customer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_OOPS/StockMarket/customer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week3_OOPS/StockMarket/stock_acc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week3_OOPS/StockMarket/stock_acc.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,18 +21,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week3_OOPS/StockMarket/stock_acc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+            <state relative-caret-position="165">
+              <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week3_OOPS/StockMarket/company.json">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week3_OOPS/StockMarket/menu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Week3_OOPS/StockMarket/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-912">
+              <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -41,14 +70,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week3_OOPS/StockMarket/customer.json">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week3_OOPS/AddressBook/adress.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="230">
+              <caret line="148" column="21" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="21" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -77,10 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Week2_python/Data_structures/123.txt" />
-        <option value="$PROJECT_DIR$/Week2_python/Data_structures/Stack_class.py" />
-        <option value="$PROJECT_DIR$/Week2_python/Data_structures/HashNumbers.txt" />
-        <option value="$PROJECT_DIR$/Week2_python/Data_structures/p5_Hashing.py" />
         <option value="$PROJECT_DIR$/Week1_python/TestCases/AnagramTest.py" />
         <option value="$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/anagramTest.py" />
         <option value="$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/bubblesortTest.py" />
@@ -127,7 +156,11 @@
         <option value="$PROJECT_DIR$/Week3_OOPS/AddressBook/address.json" />
         <option value="$PROJECT_DIR$/Week3_OOPS/1.json" />
         <option value="$PROJECT_DIR$/Week3_OOPS/AddressBook/adress.py" />
+        <option value="$PROJECT_DIR$/Week3_OOPS/StockMarket/company.json" />
         <option value="$PROJECT_DIR$/Week3_OOPS/StockMarket/stock_acc.py" />
+        <option value="$PROJECT_DIR$/Week3_OOPS/StockMarket/menu.py" />
+        <option value="$PROJECT_DIR$/Week3_OOPS/StockMarket/main.py" />
+        <option value="$PROJECT_DIR$/Week3_OOPS/StockMarket/customer.json" />
       </list>
     </option>
   </component>
@@ -215,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.stock_acc">
+  <component name="RunManager" selected="Python.menu">
     <configuration name="adress" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Mrgon96" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -237,7 +270,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="json" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Mrgon96" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -245,11 +278,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3_OOPS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3_OOPS/StockMarket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3_OOPS/js.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3_OOPS/StockMarket/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -258,7 +291,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="new" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="menu" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Mrgon96" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,11 +299,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3_OOPS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Week3_OOPS/StockMarket" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3_OOPS/new.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week3_OOPS/StockMarket/menu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,11 +356,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.menu" />
+        <item itemvalue="Python.main" />
         <item itemvalue="Python.stock_acc" />
         <item itemvalue="Python.adress" />
         <item itemvalue="Python.p4" />
-        <item itemvalue="Python.new" />
-        <item itemvalue="Python.json" />
       </list>
     </recent_temporary>
   </component>
@@ -397,12 +430,12 @@
     <frame x="57" y="25" width="1309" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16310371" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16547902" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24940617" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.3293745" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49881235" visible="true" weight="0.48859936" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49881235" visible="true" weight="0.09771987" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,49 +476,37 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dasda" />
     <option name="LAST_COMMIT_MESSAGE" value="dasda" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Week3_OOPS/AddressBook/adress.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Gaurav/newweb2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Gaurav/newweb.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week1_python/Algorithm_Programs/TestFiles/nibbleTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week2_python/Data_structures/123.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week1_python/Fuctional_Programs/triplet.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -717,13 +738,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week3_OOPS/new.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3_OOPS/new.py" />
     <entry file="file://$PROJECT_DIR$/../Downloads/Bridgelabz-master/Week3/AddressBook/asd.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -776,16 +791,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week3_OOPS/StockMarket/stockmarket.json">
+    <entry file="file://$PROJECT_DIR$/Week3_OOPS/StockMarket/stockmarket.json" />
+    <entry file="file://$PROJECT_DIR$/../Downloads/Bridgelabz-master/Week3/Commercial_Data_Process/StockAccount.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week3_OOPS/StockMarket/company.json">
+    <entry file="file://$PROJECT_DIR$/../Downloads/Bridgelabz-master/Week3/Commercial_Data_Process/Transaction_Stack.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Week3_OOPS/AddressBook/adress.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="230">
+          <caret line="148" column="21" selection-start-line="148" selection-start-column="21" selection-end-line="148" selection-end-column="21" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -793,15 +809,46 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week3_OOPS/StockMarket/customer.json">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week3_OOPS/StockMarket/transaction.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Week3_OOPS/StockMarket/menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3_OOPS/StockMarket/company.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week3_OOPS/StockMarket/stock_acc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="26" column="8" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+        <state relative-caret-position="165">
+          <caret line="69" column="34" lean-forward="true" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week3_OOPS/StockMarket/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-912">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
