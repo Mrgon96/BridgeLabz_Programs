@@ -61,16 +61,31 @@ class stock_acc():
         else:
             print('No record found/......')
 
-    def customer_buy(self, shares, company, customer):
+    def customer_buy(self, shares, company, customer, price):
         self.open()
         for i in range(len(self.data["Customer"])):
             if customer == str(self.data["Customer"][i]['Name']):
-                s={}
-                s['company']=company
-                s['shares']=shares
-                self.data["Customer"][i]["Stock"].append(s)
-                self.write()
+                if price > int(self.data["Customer"][i]['Balance']):
+                    print('Dont have Enough Balance..')
+                    self.customer_buy()
+                else:
+                    s={}
+                    s['company']=company
+                    s['shares']=shares
+                    self.data["Customer"][i]["Stock"].append(s)
+                    self.data["Customer"][i]["Balance"] = int(self.data["Customer"][i]["Balance"]) - price
+                    self.write()
 
+    def customer_sell(self, shares, company, customer, price):
+        self.open()
+        for i in range(len(self.data["Customer"])):
+            if customer == str(self.data["Customer"][i]['Name']):
+                    s={}
+                    s['company']=company
+                    s['shares']=shares
+                    self.data["Customer"][i]["Stock"].append(s)
+                    self.data["Customer"][i]["Balance"] = int(self.data["Customer"][i]["Balance"]) - price
+                    self.write()
 
 
 

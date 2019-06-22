@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import *
 import json
+import pandas as pd
+from pandas.io.json import json_normalize
 
 class Address():
     def __init__(self):
@@ -132,7 +134,8 @@ class Address():
             print('1. Add record')
             print('2. Remove record')
             print('3. Update record')
-            print('4. Exit')
+            print('4. Print Address Book')
+            print('5. Exit')
             self.choice = input('Enter your choice ==> ')
             if self.choice.isdigit()!=True:
                 raise ValueError
@@ -144,6 +147,18 @@ class Address():
             print('Enter Again')
             self.menu()
 
+
+    def print(self):
+        self.open()
+        for i in range(len(self.data["AddressBook"])):
+            f = str(self.data["AddressBook"][i]['first_name'])
+            l = str(self.data["AddressBook"][i]['last_name'])
+            a = str(self.data["AddressBook"][i]['address'])
+            c = str(self.data["AddressBook"][i]['city'])
+            s = str(self.data["AddressBook"][i]['state'])
+            z = str(self.data["AddressBook"][i]['zip'])
+            p = str(self.data["AddressBook"][i]['phone_number'])
+            print(f, '\t\t', l, '\t\t', a, '\t\t\t', c)
 
 
     def options(self):
@@ -162,6 +177,8 @@ class Address():
             self.write()
             self.menu()
         elif self.choice == '4':
+            self.print()
+        elif self.choice == '5':
             exit()
         else:
             print('Enter Correct Choice...')

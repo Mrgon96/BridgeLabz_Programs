@@ -12,6 +12,7 @@ class main_menu():
         self.customer =''
         self.shares = 0
         self.company = ''
+        self.price = 0
 
 
     def menu(self):
@@ -65,7 +66,10 @@ class main_menu():
         if ch == '1':
             self.shares = self.cust.buy()
             self.company = self.cust.company_return()
-            self.stock.customer_buy(self.shares, self.company, self.customer)
+            self.price = self.cust.share_price()
+            self.stock.customer_buy(self.shares, self.company, self.customer, self.price)
+            print('***********Shares bought*************')
+            self.mainmenu(customer)
         elif ch == '2':
             self.cust.sell()
         elif ch == '3':
