@@ -2,17 +2,17 @@
   "Companies": [
     {
       "Name": "Google",
-      "Shares": 196,
+      "Shares": 791,
       "price": 1230
     },
     {
       "Name": "Microsoft",
-      "Shares": 1000,
+      "Shares": 973,
       "price": 450
     },
     {
       "Name": "Amazon",
-      "Shares": 2500,
+      "Shares": 780,
       "price": 120
     }
   ]

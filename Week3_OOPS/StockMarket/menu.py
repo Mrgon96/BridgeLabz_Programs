@@ -1,6 +1,8 @@
 import json
 from Week3_OOPS.StockMarket.stock_acc import stock_acc
 from Week3_OOPS.StockMarket.main import main
+from Week3_OOPS.StockMarket.trans_stack import trans_Stack
+from Week3_OOPS.StockMarket.transqueue import trans_Queue
 
 
 class main_menu():
@@ -9,11 +11,12 @@ class main_menu():
         self.choice = ''
         self.stock = stock_acc()
         self.cust = main()
-        self.customer =''
+        self.customer = ''
         self.shares = 0
         self.company = ''
         self.price = 0
-
+        self.trans = trans_Stack()
+        self.queue = trans_Queue()
 
     def menu(self):
         print('*********StockCommerce************')
@@ -62,18 +65,31 @@ class main_menu():
         print('3. Check Balance')
         print('4. logout')
 
-        ch = input('Enter Choice')
+        ch = input('Enter Choice ==>')
         if ch == '1':
+            buy = 'BUY'
             self.shares = self.cust.buy()
             self.company = self.cust.company_return()
             self.price = self.cust.share_price()
-            self.stock.customer_buy(self.shares, self.company, self.customer, self.price)
+            self.stock.customer_buy(self.shares, self.company, customer, self.price)
+            self.trans.addtrans(buy, customer, self.company, self.shares)
+            self.queue.addtrans(customer, self.company, self.shares)
             print('***********Shares bought*************')
             self.mainmenu(customer)
         elif ch == '2':
-            self.cust.sell()
+            sell = 'SELL'
+            company2, shares2 = self.stock.customer_sell(customer)
+            if company2 is None and shares2 is None:
+                print('Please buy Some Shares')
+            else:
+                self.queue.addtrans(customer, company2, shares2)
+                self.trans.addtrans(sell, customer, company2, shares2)
+                price2 = self.cust.sell(company2, shares2)
+                self.stock.sell_value(price2, shares2, customer)
+            self.mainmenu(customer)
         elif ch == '3':
-            self.cust.checkbalance()
+            self.stock.check_bal(self.customer)
+            self.mainmenu(customer)
         elif ch == '4':
             self.menu()
         else:

@@ -9,7 +9,7 @@ def deck():
         for j in rank:
             cards.append(i+'-'+j)
     cards = sorted(cards)
-    print(cards)
+    # print(cards)
 
     q = Queue()
 
@@ -19,7 +19,7 @@ def deck():
 
     for i in range(4):
         player = []
-        q.enque(player)
+
         for j in range(9):
             m = random.randrange(len(cards))
             card = cards[m]
@@ -28,10 +28,11 @@ def deck():
             player.append(card)
             cards.remove(card)
         dis.append(player)
+        q.enque(player)
 
     for i in range(len(dis)):
         print('Player', i+1, 'cards: ')
-        print(dis[i])
+        print(q.deque())
 
 
 deck()

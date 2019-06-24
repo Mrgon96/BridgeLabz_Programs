@@ -2,26 +2,10 @@
   "Customer": [
     {
       "Name": "Gaurav",
-      "Balance": 2540,
+      "Balance": 14640,
       "Stock": [
         {
-          "company": "google",
-          "shares": 100
-        },
-        {
-          "company": "google",
-          "shares": 200
-        },
-        {
-          "company": "google",
-          "shares": 1
-        },
-        {
-          "company": "google",
-          "shares": 1
-        },
-        {
-          "company": "google",
+          "company": "amazon",
           "shares": 1
         }
       ]

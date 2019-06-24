@@ -1,42 +1,62 @@
 import json
 
 
-def insert():
+class Inventory:
 
-    try:
-        n = (input("Enter Number of records to be Inserted maximum(10):"))
-        filename = "1.json"
+    def __init__(self):
+        # define file name
+        self.filename = '1.json'
+        # define empty dictionary
+        self.lst = {}
+
+    def create(self):
+        # define temporary variable to write in json file
         temp = {'Inventory': []}
-        with open(filename, 'w') as f:
+        # write into json file
+        with open(self.filename, 'w') as f:
             json.dump(temp, f, indent=2)
             f.close()
 
-        with open(filename, 'r') as f2:
-            lst = json.load(f2)
+    def open(self):
+        # read the file
+        with open(self.filename, 'r') as f2:
+            self.lst = json.load(f2)
             f2.close()
 
-        add={}
-        if n.isdigit() != True:
-            raise ValueError
-        elif int(n) > 10:
-            raise ValueError
-        else:
-            n = int(n)
-            for i in range(n):
-                add['Name'] = (input('Enter Name :'))
-                add['Weight'] = input('Enter Weight: ')
-                add['Price'] = input('Enter Price: ')
-                lst["Inventory"].append(add)
+    def write(self):
+        # Open The File In Write Mode
+        with open('1.json', 'w') as data:
+            # Write Content In JSON Using json.dump Method
+            json.dump(self.lst, data, indent=2)
+            data.close()
 
-                with open('1.json', 'w') as data:  # Open The File In Write Mode
-                    json.dump(lst, data, indent=2)  # Write Content In JSON Using json.dump Method
-                    data.close()
+    def insertion(self):
+
+        try:
+            # input for numbers of records to be inserted
+            n = (input("Enter Number of records to be Inserted maximum(10):"))
+            add = {}
+            if not n.isdigit():
+                # raise error if input is not Integer
+                raise ValueError
+            else:
+                n = int(n)
+                for i in range(n):
+                    self.open()
+                    print('Enter ', i+1, 'Value:')
+                    add['Name'] = (input('Enter Name :'))
+                    add['Weight'] = int(input('Enter Weight: '))
+                    add['Price'] = int(input('Enter Price: '))
+                    self.lst["Inventory"].append(add)
+                    self.write()
+
+        # exception handling
+        except ValueError:
+            print('Enter Again......')
+            self.insertion()
 
 
+# call the function
+p = Inventory()
+p.insertion()
 
-    except ValueError:
-        print('Enter Again......')
-        insert()
-
-
-insert()
