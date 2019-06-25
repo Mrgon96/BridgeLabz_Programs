@@ -2,8 +2,16 @@
   "Customer": [
     {
       "Name": "Gaurav",
-      "Balance": 14640,
+      "Balance": 14400,
       "Stock": [
+        {
+          "company": "amazon",
+          "shares": 1
+        },
+        {
+          "company": "amazon",
+          "shares": 1
+        },
         {
           "company": "amazon",
           "shares": 1

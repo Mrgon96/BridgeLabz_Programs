@@ -23,6 +23,18 @@
       "customer": "Gaurav",
       "company": "amazon",
       "shares_bought": 1
+    },
+    {
+      "Transaction_type": "BUY",
+      "customer": "Gaurav",
+      "company": "amazon",
+      "shares_bought": 1
+    },
+    {
+      "Transaction_type": "BUY",
+      "customer": "Gaurav",
+      "company": "amazon",
+      "shares_bought": 1
     }
   ]
 }
