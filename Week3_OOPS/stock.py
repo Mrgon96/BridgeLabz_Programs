@@ -26,7 +26,6 @@ class stock():
             print(name, '\t', round(value, 3))
             self.total.append(value)
 
-
     def totalvalue(self):
         sum = 0
         for i in self.total:
@@ -35,9 +34,7 @@ class stock():
               round(sum, 4))
 
 
-
-
-s =stock()
+s = stock()
 s.each_stock()
 s.totalvalue()
 

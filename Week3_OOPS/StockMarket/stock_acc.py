@@ -129,7 +129,7 @@ class stock_acc():
                         for j in self.data["Customer"][i]["Stock"]:
                             print(j)
 
-                        company,shares = self.cus_sell(customer)
+                        company, shares = self.cus_sell(customer)
                     else:
                         print('You havent Bought any shares')
                         company = None
@@ -173,32 +173,4 @@ class stock_acc():
     #                     self.write()
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 s = stock_acc()
-
-

@@ -34,7 +34,7 @@ Thank you BridgeLabz 01/01/2016.'''
             patterns = ['<<name>>', '<<full name>>', '91-xxxxxxxxxx', '01/01/2016']
 
             # replace patterns with user inputs
-            for i in range(4):
+            for i in range(len(list1)):
                 message = re.sub(patterns[i], list1[i], message)
             print()
             print(message)
